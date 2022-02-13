@@ -1,0 +1,20 @@
+{
+    "name": "naramonov997/logger",
+    "description": "Logger",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Nikolay",
+            "email": "naramonov997@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logger\\": "./src"
+        }
+    }
+}
