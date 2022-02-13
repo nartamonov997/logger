@@ -35,7 +35,7 @@ class LineFormatter extends Formatter
                 continue;
             }
             if ($var == 'date') {
-                $val = $vars[$var]->format('Y-m-d H:i:s');
+                $val = $vars[$var]->format($this->dateFormat);
             }
             $output = str_replace('%' . $var . '%', $val, $output);
             
